@@ -10,12 +10,13 @@ CONFIG += c++11
 
 SOURCES += \
     main.cpp \
-    src/entity/person.cpp \
+    src/entity/personImpl.cpp \
     src/entity/report.cpp \
     views/mainwindow.cpp \
 
 HEADERS += \
     src/entity/person.h \
+    src/entity/personImpl.h \
     src/entity/report.h \
     views/mainwindow.h \
 
