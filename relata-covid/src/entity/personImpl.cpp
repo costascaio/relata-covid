@@ -37,7 +37,7 @@ string PersonImpl::getCityName() const
     return city_notification;
 }
 
-void PersonImpl::setCity_name(const string &value)
+void PersonImpl::setCityName(const string &value)
 {
     city_notification = value;
 }

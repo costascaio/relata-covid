@@ -1,7 +1,7 @@
 #ifndef PERSONIMPL_H
 #define PERSONIMPL_H
 
-#include "person.h";
+#include "person.h"
 
 class PersonImpl : public Person
 {
@@ -20,7 +20,7 @@ public:
     void setAddress(const string &value);
 
     string getCityName() const;
-    void setCity_name(const string &value);
+    void setCityName(const string &value);
 
     string getPhone() const;
     void setPhone(const string &value);
