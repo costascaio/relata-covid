@@ -17,7 +17,7 @@ public:
     virtual void setAddress(const string &value) = 0;
 
     virtual string getCityName() const = 0;
-    virtual void setCity_name(const string &value) = 0;
+    virtual void setCityName(const string &value) = 0;
 
     virtual string getPhone() const = 0;
     virtual void setPhone(const string &value) = 0;
