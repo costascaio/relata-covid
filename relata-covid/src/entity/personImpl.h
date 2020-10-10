@@ -40,8 +40,8 @@ public:
     string getGender() const;
     void setGender(const string &value);
 
-    int getAge() const;
-    void setAge(int value);
+    string getAge() const;
+    void setAge(string value);
 
     string getDateSymptoms() const;
     void setDateSymptoms(const string &value);
@@ -57,7 +57,7 @@ private:
     string cep;
     string result_test;
     string gender;
-    int age;
+    string age;
     string date_symptoms;
 };
 

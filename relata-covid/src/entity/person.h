@@ -5,7 +5,8 @@
 
 using namespace std;
 
-class Person {
+class Person
+{
 public:
     virtual string getName() const = 0;
     virtual void setName(const string &value) = 0;
@@ -37,8 +38,8 @@ public:
     virtual string getGender() const = 0;
     virtual void setGender(const string &value) = 0;
 
-    virtual int getAge() const = 0;
-    virtual void setAge(int value) = 0;
+    virtual string getAge() const = 0;
+    virtual void setAge(string value) = 0;
 
     virtual string getDateSymptoms() const = 0;
     virtual void setDateSymptoms(const string &value) = 0;

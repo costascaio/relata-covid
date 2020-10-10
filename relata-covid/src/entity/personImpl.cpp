@@ -1,6 +1,6 @@
 #include "personImpl.h"
 
-PersonImpl::PersonImpl(){}
+PersonImpl::PersonImpl() {}
 
 string PersonImpl::getName() const
 {
@@ -102,12 +102,12 @@ void PersonImpl::setGender(const string &value)
     gender = value;
 }
 
-int PersonImpl::getAge() const
+string PersonImpl::getAge() const
 {
     return age;
 }
 
-void PersonImpl::setAge(int value)
+void PersonImpl::setAge(string value)
 {
     age = value;
 }
