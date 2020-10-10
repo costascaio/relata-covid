@@ -10,7 +10,4 @@
 
 using namespace std;
 
-class ReaderCSV
-{
-    virtual vector<Person *> get_data() const = 0;
-};
+vector<Person *> reader_csv(const string &, const string &);

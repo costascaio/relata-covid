@@ -1,20 +1,6 @@
-#include "readerCSVImpl.hpp"
+#include "readerCSV.hpp"
 
-ReaderCSVImpl::ReaderCSVImpl()
-{
-    file_name = "";
-    sep = ',';
-}
-
-ReaderCSVImpl::ReaderCSVImpl(const string &file_name, const string &sep)
-{
-    this->file_name = file_name;
-    this->sep = sep;
-}
-
-ReaderCSVImpl::~ReaderCSVImpl() {}
-
-vector<Person *> ReaderCSVImpl::get_data()
+vector<Person *> reader_csv(const string &file_name, const string &sep)
 {
     vector<Person *> data;
     ifstream file(file_name);
