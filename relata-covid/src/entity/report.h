@@ -25,12 +25,13 @@ public:
                                  string cep,
                                  string result_test,
                                  string gender,
-                                 int age,
+                                 string age,
                                  string date_symptoms) = 0;
 
     ~Report();
+
 protected:
-    virtual void add(Person* person) = 0;
+    virtual void add(Person *person) = 0;
 };
 
 #endif // REPORT_H

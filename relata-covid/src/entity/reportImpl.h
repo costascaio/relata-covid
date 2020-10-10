@@ -11,7 +11,7 @@ public:
     ReportImpl();
     ~ReportImpl();
 
-    vector<Person *> &getPeople() ;
+    vector<Person *> &getPeople();
     void setPeople(const vector<Person *> &value);
 
     int getDuplicity() const;
@@ -28,11 +28,12 @@ public:
                          string cep,
                          string result_test,
                          string gender,
-                         int age,
+                         string age,
                          string date_symptoms);
 
 protected:
-    void add(Person* person);
+    void add(Person *person);
+
 private:
     vector<Person *> people;
     int duplicity;

@@ -3,7 +3,6 @@
 
 ReportImpl::ReportImpl()
 {
-
 }
 
 vector<Person *> &ReportImpl::getPeople()
@@ -41,7 +40,7 @@ Person *ReportImpl::createPerson(string name,
                                  string cep,
                                  string result_test,
                                  string gender,
-                                 int age,
+                                 string age,
                                  string date_symptoms)
 {
     Person *p = new PersonImpl();
