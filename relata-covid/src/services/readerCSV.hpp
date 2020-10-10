@@ -5,9 +5,11 @@
 #include <vector>
 #include <iterator>
 #include <string>
-#include <boost/algorithm/string.hpp>
+#include <sstream>
+#include <algorithm>
 #include "entity/report.h"
 
 using namespace std;
 
-vector<Person *> reader_csv(const string &, const string &);
+void split(const string &, vector<string>, char);
+vector<Person *> reader_csv(const string &, const char &);

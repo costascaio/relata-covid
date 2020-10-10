@@ -1,6 +1,14 @@
 #include "readerCSV.hpp"
 
-vector<Person *> reader_csv(const string &file_name, const string &sep)
+void split(const string &str, vector<string> vec, char sep)
+{
+    stringstream ss(str);
+    string token;
+    while (getline(ss, token, sep))
+        vec.push_back(token);
+}
+
+vector<Person *> reader_csv(const string &file_name, const char &sep)
 {
     vector<Person *> data;
     ifstream file(file_name);
@@ -10,7 +18,7 @@ vector<Person *> reader_csv(const string &file_name, const string &sep)
     {
         vector<string> vec;
 
-        boost::split(vec, line, boost::is_any_of(sep));
+        split(line, vec, sep);
 
         Report *r = Report::createReport();
 
