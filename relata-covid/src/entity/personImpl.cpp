@@ -2,6 +2,8 @@
 
 PersonImpl::PersonImpl() {}
 
+PersonImpl::~PersonImpl(){}
+
 string PersonImpl::getName() const
 {
     return name;

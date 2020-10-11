@@ -28,7 +28,7 @@ public:
                                  string age,
                                  string date_symptoms) = 0;
 
-    ~Report();
+    virtual ~Report() {};
 
 protected:
     virtual void add(Person *person) = 0;
