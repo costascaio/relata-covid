@@ -15,6 +15,8 @@ SOURCES += \
     src/services/generate_duplicity_report.cpp \
     views/mainwindow.cpp \
     src/services/readerCSV.cpp \
+    views/reportmenu.cpp
+
 
 HEADERS += \
     src/entity/person.h \
@@ -25,10 +27,14 @@ HEADERS += \
     views/mainwindow.h \
     src/services/readerCSV.h \
 
+
 FORMS += \
-    mainwindow.ui
+    views/reportmenu.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    assets.qrc
