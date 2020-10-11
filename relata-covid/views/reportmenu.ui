@@ -14,22 +14,7 @@
    <string>RELATACOVID - Relatório</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background: #000000;
-
-QPushButton#backButton,
-QPushButton#esusVEButton,
-QPushButton#sivepDDAButton,
-QPushButton#generateButton, {
-	opacity: 0;
-	transition: opacity 0.3s;
-}
-QPushButton:hover#backButton,
-QPushButton:hover#esusVEButton,
-QPushButton:hover#sivepDDAButton,
-QPushButton:hover#generateButton,
- {
-	 opacity: 1;
-}</string>
+   <string notr="true"/>
   </property>
   <widget class="QFrame" name="frame">
    <property name="geometry">
