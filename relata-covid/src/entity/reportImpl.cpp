@@ -5,6 +5,10 @@ ReportImpl::ReportImpl()
 {
 }
 
+ReportImpl::~ReportImpl()
+{
+}
+
 vector<Person *> &ReportImpl::getPeople()
 {
     return people;
