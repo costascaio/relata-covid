@@ -1,11 +1,14 @@
 #include "readerCSV.hpp"
 
-void split(const string &str, vector<string> vec, char sep)
+vector<string> split(const string &str, const char &sep)
 {
+    vector<string> vec_aux;
     stringstream ss(str);
     string token;
     while (getline(ss, token, sep))
-        vec.push_back(token);
+        vec_aux.push_back(token);
+
+    return vec_aux;
 }
 
 vector<Person *> reader_csv(const string &file_name, const char &sep)
@@ -18,7 +21,7 @@ vector<Person *> reader_csv(const string &file_name, const char &sep)
     {
         vector<string> vec;
 
-        split(line, vec, sep);
+        vec = split(line, sep);
 
         Report *r = Report::createReport();
 
