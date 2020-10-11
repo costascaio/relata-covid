@@ -2,13 +2,13 @@
 
 void export_duplicity_report(Report *report)
 {
-    fstream fout;
-
-    fout.open("duplicity_report.csv", ios::out | ios::app);
+    ofstream fout("duplicity_report.csv");
 
     vector<Person *> peoples = report->getPeople();
 
     int number_duplicity = report->getDuplicity();
+
+    cout << "number duplicity: " << number_duplicity << endl;
 
     vector<string> columns = {
         "Name",
@@ -22,21 +22,22 @@ void export_duplicity_report(Report *report)
         "Result  Test",
         "Gender",
         "Age",
-        "Date Simptoms"
-        "Number Of Duplicities"};
+        "Date Simptoms",
+    };
 
     for (string column : columns)
     {
         fout << column << ", ";
     }
-    fout << "\n";
+    fout << "Number Of Duplicities"
+         << "\n";
 
     for (int i = 0; i < peoples.size(); i++)
     {
         if (i == 0)
         {
             fout << peoples[i]->getName() << ", "
-                 << peoples[i]->getCEP() << ", "
+                 << peoples[i]->getCPF() << ", "
                  << peoples[i]->getAddress() << ", "
                  << peoples[i]->getCityName() << ", "
                  << peoples[i]->getPhone() << ", "
@@ -53,7 +54,7 @@ void export_duplicity_report(Report *report)
         else
         {
             fout << peoples[i]->getName() << ", "
-                 << peoples[i]->getCEP() << ", "
+                 << peoples[i]->getCPF() << ", "
                  << peoples[i]->getAddress() << ", "
                  << peoples[i]->getCityName() << ", "
                  << peoples[i]->getPhone() << ", "
