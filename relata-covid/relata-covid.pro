@@ -12,19 +12,24 @@ SOURCES += \
     main.cpp \
     src/entity/personImpl.cpp \
     src/entity/reportImpl.cpp \
-    views/mainwindow.cpp \
+    src/services/readerCSV.cpp \
+    views/reportmenu.cpp
 
 HEADERS += \
     src/entity/person.h \
     src/entity/personImpl.h \
     src/entity/report.h \
     src/entity/reportImpl.h \
-    views/mainwindow.h \
+    src/services/readerCSV.h \
+    views/reportmenu.h
 
 FORMS += \
-    mainwindow.ui
+    views/reportmenu.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    assets.qrc

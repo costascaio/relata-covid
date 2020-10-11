@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>img/button-back.PNG</file>
+        <file>img/e-sus-ve.png</file>
+        <file>img/logo.PNG</file>
+        <file>img/sivep-dda.png</file>
+    </qresource>
+</RCC>

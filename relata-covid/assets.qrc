@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/imgs">
+        <file>assets/img/button-back.PNG</file>
+        <file>assets/img/e-sus-ve.png</file>
+        <file>assets/img/logo.PNG</file>
+        <file>assets/img/sivep-dda.png</file>
+        <file>assets/img/report-logo.PNG</file>
+        <file>assets/img/user-icon.PNG</file>
+    </qresource>
+    <qresource prefix="/1"/>
+</RCC>
