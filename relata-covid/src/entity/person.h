@@ -43,6 +43,8 @@ public:
 
     virtual string getDateSymptoms() const = 0;
     virtual void setDateSymptoms(const string &value) = 0;
+
+    virtual ~Person() {};
 };
 
 #endif // PERSON_H
