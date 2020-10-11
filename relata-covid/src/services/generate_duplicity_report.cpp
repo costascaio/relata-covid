@@ -5,6 +5,7 @@ int find(vector<Person*> people, Person* person_duplicity, int it){
     for (int i = it + 1; i < people.size(); i++){
         position++;
         if(people[i]->getCPF() == person_duplicity->getCPF()){
+
             return position;
         }
     }

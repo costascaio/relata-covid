@@ -14,6 +14,7 @@ SOURCES += \
     src/entity/reportImpl.cpp \
     src/services/generate_duplicity_report.cpp \
     src/services/readerCSV.cpp \
+    src/services/remove_report.cpp \
     views/reportmenu.cpp
 
 
@@ -24,6 +25,7 @@ HEADERS += \
     src/entity/reportImpl.h \
     src/services/generate_duplicity_report.h \
     src/services/readerCSV.h \
+    src/services/remove_report.h \
     views/reportmenu.h
 
 FORMS += \
