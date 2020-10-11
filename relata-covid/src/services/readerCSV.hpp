@@ -11,5 +11,5 @@
 
 using namespace std;
 
-void split(const string &, vector<string>, char);
+vector<string> split(const string &, const char &);
 vector<Person *> reader_csv(const string &, const char &);
