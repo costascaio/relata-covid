@@ -16,9 +16,16 @@ vector<Person *> reader_csv(const string &file_name, const char &sep)
     vector<Person *> data;
     ifstream file(file_name);
     string line = "";
+    bool first_iteration = true;
 
     while (getline(file, line))
     {
+        if (first_iteration)
+        {
+            first_iteration = false;
+            continue;
+        }
+
         vector<string> vec;
 
         vec = split(line, sep);
