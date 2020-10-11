@@ -12,6 +12,7 @@ SOURCES += \
     main.cpp \
     src/entity/personImpl.cpp \
     src/entity/reportImpl.cpp \
+    src/services/export_duplicity_report.cpp \
     src/services/generate_duplicity_report.cpp \
     src/services/readerCSV.cpp \
     views/reportmenu.cpp
@@ -22,8 +23,10 @@ HEADERS += \
     src/entity/personImpl.h \
     src/entity/report.h \
     src/entity/reportImpl.h \
+    src/services/export_duplicity_report.h \
     src/services/generate_duplicity_report.h \
     src/services/readerCSV.h \
+    src/services/readerCSV.hpp \
     views/reportmenu.h
 
 FORMS += \
