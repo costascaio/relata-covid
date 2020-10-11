@@ -27,7 +27,11 @@ HEADERS += \
     src/services/export_duplicity_report.h \
     src/services/generate_duplicity_report.h \
     src/services/readerCSV.h \
+<<<<<<< HEAD
     src/services/remove_report.h \
+=======
+    src/services/readerCSV.hpp \
+>>>>>>> 6d8e5a9... feat(Export the duplicity report) create export duplicity report
     views/reportmenu.h
 
 FORMS += \
