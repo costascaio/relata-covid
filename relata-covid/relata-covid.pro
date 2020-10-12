@@ -16,7 +16,8 @@ SOURCES += \
     src/services/generate_duplicity_report.cpp \
     src/services/readerCSV.cpp \
     src/services/remove_report.cpp \
-    views/reportmenu.cpp
+    views/reportmenu.cpp \
+    views/reporttable.cpp
 
 
 HEADERS += \
@@ -28,10 +29,12 @@ HEADERS += \
     src/services/generate_duplicity_report.h \
     src/services/readerCSV.h \
     src/services/remove_report.h \
-    views/reportmenu.h
+    views/reportmenu.h \
+    views/reporttable.h
 
 FORMS += \
-    views/reportmenu.ui
+    views/reportmenu.ui \
+    views/reporttable.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
