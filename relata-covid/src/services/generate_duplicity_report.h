@@ -8,6 +8,6 @@
 
 using namespace std;
 
-Report* generate_report(vector<Person*>, vector<Person*>);
+Report* generate_report(vector<Person*>&, vector<Person*>&);
 
 #endif // GENERATE_DUPLICITY_REPORT_H
