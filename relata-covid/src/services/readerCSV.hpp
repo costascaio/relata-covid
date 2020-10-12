@@ -11,5 +11,15 @@
 
 using namespace std;
 
+/**
+ * @brief this functionality split a string.
+ * 
+ * @return vector<string> 
+ */
 vector<string> split(const string &, const char &);
+/**
+ * @brief this functionality reads a csv file.
+ * 
+ * @return vector<Person *> 
+ */
 vector<Person *> reader_csv(const string &, const char &);
