@@ -6,6 +6,10 @@
 #include <QMessageBox>
 #include <QDir>
 #include <QtGui>
+#include "reporttable.h"
+#include "src/entity/report.h"
+#include "src/services/readerCSV.hpp"
+#include "src/services/generate_duplicity_report.h"
 
 using namespace std;
 
@@ -27,6 +31,10 @@ public:
     string getSivep_DDA_path() const;
     void setSivep_DDA_path(const string &value);
 
+    ReportTable *getReport_table() const;
+    void setReport_table(ReportTable *value);
+
+
 private slots:
     void on_backButton_pressed();
 
@@ -40,6 +48,7 @@ private:
     Ui::ReportMenu *ui;
     string e_susVE_path;
     string sivep_DDA_path;
+    ReportTable* report_table;
 };
 
 #endif // REPORTMENU_H

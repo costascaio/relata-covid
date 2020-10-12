@@ -32,7 +32,9 @@ void ReportMenu::on_esusVEButton_pressed()
             path = "";
         }
         this->e_susVE_path = path;
-    } catch (exception e) { }
+    } catch (exception e) {
+        throw e;
+    }
 }
 
 string ReportMenu::getSivep_DDA_path() const
@@ -69,13 +71,22 @@ void ReportMenu::on_sivepDDAButton_pressed()
             path = "";
         }
         this->sivep_DDA_path = path;
-    } catch (exception e) { }
+    } catch (exception e) {
+        throw e;
+    }
 }
 
 void ReportMenu::on_generateButton_pressed()
 {
     if(this->e_susVE_path.length() != 0 && this->sivep_DDA_path.length() != 0){
-        //call the next window
+        vector<Person*> sivep = reader_csv(this->getSivep_DDA_path(), ',');
+        vector<Person*> e_sus_ve = reader_csv(this->getE_susVE_path(), ',');
+
+        Report *report_data = generate_report(sivep, e_sus_ve);
+
+        this->getReport_table()->setReport_data(report_data);
+
+        this->getReport_table()->exec();
     }
     else if(this->e_susVE_path.length() != 0 && this->sivep_DDA_path.length() == 0){
         QMessageBox::information(this, tr("Relatório"), tr("O arquivo do SIVEP-DDA não foi importado."));
@@ -86,4 +97,14 @@ void ReportMenu::on_generateButton_pressed()
     else {
         QMessageBox::information(this, tr("Relatório"), tr("Arquivos não foram importados."));
     }
+}
+
+ReportTable *ReportMenu::getReport_table() const
+{
+    return report_table;
+}
+
+void ReportMenu::setReport_table(ReportTable *value)
+{
+    report_table = value;
 }
