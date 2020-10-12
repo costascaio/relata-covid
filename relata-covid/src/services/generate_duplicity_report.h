@@ -8,6 +8,11 @@
 
 using namespace std;
 
+/**
+ * @brief this functionality generates a duplicity report.
+ * 
+ * @return Report* 
+ */
 Report* generate_report(vector<Person*>&, vector<Person*>&);
 
 #endif // GENERATE_DUPLICITY_REPORT_H
