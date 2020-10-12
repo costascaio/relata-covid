@@ -1,0 +1,271 @@
+\hypertarget{class_report_impl}{}\doxysection{Report\+Impl Class Reference}
+\label{class_report_impl}\index{ReportImpl@{ReportImpl}}
+
+
+This Class is the implementation from the \mbox{\hyperlink{class_report}{Report}}.  
+
+
+
+
+{\ttfamily \#include $<$report\+Impl.\+h$>$}
+
+
+
+Inheritance diagram for Report\+Impl\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=143pt]{class_report_impl__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Report\+Impl\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=143pt]{class_report_impl__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_report_impl_a3f13c0ebb9cae8fe7f7498fd4c84432d}{Report\+Impl}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{class_report}{Report}} Impl object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_report_impl_a377ca8c40387094f29f4c9088f978def}{$\sim$\+Report\+Impl}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \mbox{\hyperlink{class_report}{Report}} Impl object. \end{DoxyCompactList}\item 
+vector$<$ \mbox{\hyperlink{class_person}{Person}} $\ast$ $>$ \& \mbox{\hyperlink{class_report_impl_a19ad5084be00e33b27deec686b4bd553}{get\+People}} ()
+\begin{DoxyCompactList}\small\item\em Get the People object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_report_impl_a0684799b0b92ced21398aae48e75a784}{set\+People}} (const vector$<$ \mbox{\hyperlink{class_person}{Person}} $\ast$ $>$ \&value)
+\begin{DoxyCompactList}\small\item\em Set the People object. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_report_impl_a305d953c8fff99b0a3b59768ce4f6213}{get\+Duplicity}} () const
+\begin{DoxyCompactList}\small\item\em Get the Duplicity object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_report_impl_aed25408fad951678b2d5a03ff78b3192}{set\+Duplicity}} (int value)
+\begin{DoxyCompactList}\small\item\em Set the Duplicity object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_person}{Person}} $\ast$ \mbox{\hyperlink{class_report_impl_aee8ec0d635c7abd6d55e6ff16d4d36f7}{create\+Person}} (string name, string cpf, string address, string city\+\_\+notification, string phone, string evolution, string date\+\_\+notification, string cep, string result\+\_\+test, string gender, string age, string date\+\_\+symptoms)
+\begin{DoxyCompactList}\small\item\em Create a \mbox{\hyperlink{class_person}{Person}} object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_report}{Report}} $\ast$ \mbox{\hyperlink{class_report_impl_aa7962e7cd69ff1dd5fc9f18ea96fa576}{create\+Report}} ()
+\begin{DoxyCompactList}\small\item\em Create a \mbox{\hyperlink{class_report}{Report}} object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_report_impl_a4ba51bc9732fce121a46084bcc0d5990}{add}} (\mbox{\hyperlink{class_person}{Person}} $\ast$person)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+vector$<$ \mbox{\hyperlink{class_person}{Person}} $\ast$ $>$ \mbox{\hyperlink{class_report_impl_a88533fb99125da48cb981db86d117b95}{people}}
+\item 
+int \mbox{\hyperlink{class_report_impl_a1dc16411b0b430481d34618c969a8163}{duplicity}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This Class is the implementation from the \mbox{\hyperlink{class_report}{Report}}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_report_impl_a3f13c0ebb9cae8fe7f7498fd4c84432d}\label{class_report_impl_a3f13c0ebb9cae8fe7f7498fd4c84432d}} 
+\index{ReportImpl@{ReportImpl}!ReportImpl@{ReportImpl}}
+\index{ReportImpl@{ReportImpl}!ReportImpl@{ReportImpl}}
+\doxysubsubsection{\texorpdfstring{ReportImpl()}{ReportImpl()}}
+{\footnotesize\ttfamily Report\+Impl\+::\+Report\+Impl (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{class_report}{Report}} Impl object. 
+
+\mbox{\Hypertarget{class_report_impl_a377ca8c40387094f29f4c9088f978def}\label{class_report_impl_a377ca8c40387094f29f4c9088f978def}} 
+\index{ReportImpl@{ReportImpl}!````~ReportImpl@{$\sim$ReportImpl}}
+\index{````~ReportImpl@{$\sim$ReportImpl}!ReportImpl@{ReportImpl}}
+\doxysubsubsection{\texorpdfstring{$\sim$ReportImpl()}{~ReportImpl()}}
+{\footnotesize\ttfamily Report\+Impl\+::$\sim$\+Report\+Impl (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destroy the \mbox{\hyperlink{class_report}{Report}} Impl object. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_report_impl_a4ba51bc9732fce121a46084bcc0d5990}\label{class_report_impl_a4ba51bc9732fce121a46084bcc0d5990}} 
+\index{ReportImpl@{ReportImpl}!add@{add}}
+\index{add@{add}!ReportImpl@{ReportImpl}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily void Report\+Impl\+::add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_person}{Person}} $\ast$}]{person }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em person} & \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_report_a085774867481664d889b1332d4d1dee0}{Report}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=328pt]{class_report_impl_a4ba51bc9732fce121a46084bcc0d5990_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_report_impl_aee8ec0d635c7abd6d55e6ff16d4d36f7}\label{class_report_impl_aee8ec0d635c7abd6d55e6ff16d4d36f7}} 
+\index{ReportImpl@{ReportImpl}!createPerson@{createPerson}}
+\index{createPerson@{createPerson}!ReportImpl@{ReportImpl}}
+\doxysubsubsection{\texorpdfstring{createPerson()}{createPerson()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_person}{Person}} $\ast$ Report\+Impl\+::create\+Person (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{string}]{cpf,  }\item[{string}]{address,  }\item[{string}]{city\+\_\+notification,  }\item[{string}]{phone,  }\item[{string}]{evolution,  }\item[{string}]{date\+\_\+notification,  }\item[{string}]{cep,  }\item[{string}]{result\+\_\+test,  }\item[{string}]{gender,  }\item[{string}]{age,  }\item[{string}]{date\+\_\+symptoms }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Create a \mbox{\hyperlink{class_person}{Person}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+{\em cpf} & \\
+\hline
+{\em address} & \\
+\hline
+{\em city\+\_\+notification} & \\
+\hline
+{\em phone} & \\
+\hline
+{\em evolution} & \\
+\hline
+{\em date\+\_\+notification} & \\
+\hline
+{\em cep} & \\
+\hline
+{\em result\+\_\+test} & \\
+\hline
+{\em gender} & \\
+\hline
+{\em age} & \\
+\hline
+{\em date\+\_\+symptoms} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Person$\ast$ 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_report_af14fc787d7284cd3ae33711b792aff53}{Report}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_report_impl_aee8ec0d635c7abd6d55e6ff16d4d36f7_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_report_impl_aa7962e7cd69ff1dd5fc9f18ea96fa576}\label{class_report_impl_aa7962e7cd69ff1dd5fc9f18ea96fa576}} 
+\index{ReportImpl@{ReportImpl}!createReport@{createReport}}
+\index{createReport@{createReport}!ReportImpl@{ReportImpl}}
+\doxysubsubsection{\texorpdfstring{createReport()}{createReport()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_report}{Report}}$\ast$ Report\+Impl\+::create\+Report (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Create a \mbox{\hyperlink{class_report}{Report}} object. 
+
+\begin{DoxyReturn}{Returns}
+Report$\ast$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_report_impl_a305d953c8fff99b0a3b59768ce4f6213}\label{class_report_impl_a305d953c8fff99b0a3b59768ce4f6213}} 
+\index{ReportImpl@{ReportImpl}!getDuplicity@{getDuplicity}}
+\index{getDuplicity@{getDuplicity}!ReportImpl@{ReportImpl}}
+\doxysubsubsection{\texorpdfstring{getDuplicity()}{getDuplicity()}}
+{\footnotesize\ttfamily int Report\+Impl\+::get\+Duplicity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Get the Duplicity object. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_report_aa93dacb20d3926cd74c8425f3eb5179e}{Report}}.
+
+\mbox{\Hypertarget{class_report_impl_a19ad5084be00e33b27deec686b4bd553}\label{class_report_impl_a19ad5084be00e33b27deec686b4bd553}} 
+\index{ReportImpl@{ReportImpl}!getPeople@{getPeople}}
+\index{getPeople@{getPeople}!ReportImpl@{ReportImpl}}
+\doxysubsubsection{\texorpdfstring{getPeople()}{getPeople()}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{class_person}{Person}} $\ast$ $>$ \& Report\+Impl\+::get\+People (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Get the People object. 
+
+\begin{DoxyReturn}{Returns}
+vector$<$\+Person $\ast$$>$\& 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_report_a88cb0c4d7c395dfa2988a92fd7dc52c1}{Report}}.
+
+\mbox{\Hypertarget{class_report_impl_aed25408fad951678b2d5a03ff78b3192}\label{class_report_impl_aed25408fad951678b2d5a03ff78b3192}} 
+\index{ReportImpl@{ReportImpl}!setDuplicity@{setDuplicity}}
+\index{setDuplicity@{setDuplicity}!ReportImpl@{ReportImpl}}
+\doxysubsubsection{\texorpdfstring{setDuplicity()}{setDuplicity()}}
+{\footnotesize\ttfamily void Report\+Impl\+::set\+Duplicity (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Set the Duplicity object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_report_a7ca8d6e05bbef4089dc2f53cf30972ad}{Report}}.
+
+\mbox{\Hypertarget{class_report_impl_a0684799b0b92ced21398aae48e75a784}\label{class_report_impl_a0684799b0b92ced21398aae48e75a784}} 
+\index{ReportImpl@{ReportImpl}!setPeople@{setPeople}}
+\index{setPeople@{setPeople}!ReportImpl@{ReportImpl}}
+\doxysubsubsection{\texorpdfstring{setPeople()}{setPeople()}}
+{\footnotesize\ttfamily void Report\+Impl\+::set\+People (\begin{DoxyParamCaption}\item[{const vector$<$ \mbox{\hyperlink{class_person}{Person}} $\ast$ $>$ \&}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Set the People object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_report_a347faab04d5aece487b1627f81672423}{Report}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_report_impl_a1dc16411b0b430481d34618c969a8163}\label{class_report_impl_a1dc16411b0b430481d34618c969a8163}} 
+\index{ReportImpl@{ReportImpl}!duplicity@{duplicity}}
+\index{duplicity@{duplicity}!ReportImpl@{ReportImpl}}
+\doxysubsubsection{\texorpdfstring{duplicity}{duplicity}}
+{\footnotesize\ttfamily int Report\+Impl\+::duplicity\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_report_impl_a88533fb99125da48cb981db86d117b95}\label{class_report_impl_a88533fb99125da48cb981db86d117b95}} 
+\index{ReportImpl@{ReportImpl}!people@{people}}
+\index{people@{people}!ReportImpl@{ReportImpl}}
+\doxysubsubsection{\texorpdfstring{people}{people}}
+{\footnotesize\ttfamily vector$<$\mbox{\hyperlink{class_person}{Person}} $\ast$$>$ Report\+Impl\+::people\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+relata-\/covid/src/entity/\mbox{\hyperlink{report_impl_8h}{report\+Impl.\+h}}\item 
+relata-\/covid/src/entity/\mbox{\hyperlink{report_impl_8cpp}{report\+Impl.\+cpp}}\end{DoxyCompactItemize}

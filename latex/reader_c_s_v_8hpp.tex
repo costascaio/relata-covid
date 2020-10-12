@@ -1,0 +1,86 @@
+\hypertarget{reader_c_s_v_8hpp}{}\doxysection{relata-\/covid/src/services/reader\+C\+SV.hpp File Reference}
+\label{reader_c_s_v_8hpp}\index{relata-\/covid/src/services/readerCSV.hpp@{relata-\/covid/src/services/readerCSV.hpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$iterator$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+{\ttfamily \#include \char`\"{}src/entity/report.\+h\char`\"{}}\newline
+Include dependency graph for reader\+C\+S\+V.\+hpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{reader_c_s_v_8hpp__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{reader_c_s_v_8hpp__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+vector$<$ string $>$ \mbox{\hyperlink{reader_c_s_v_8hpp_a6cc8f1e9d194c46101323be506f574d6}{split}} (const string \&, const char \&)
+\begin{DoxyCompactList}\small\item\em this functionality split a string. \end{DoxyCompactList}\item 
+vector$<$ \mbox{\hyperlink{class_person}{Person}} $\ast$ $>$ \mbox{\hyperlink{reader_c_s_v_8hpp_a404bbef145b5324fe3f5bf5e23e999d0}{reader\+\_\+csv}} (const string \&, const char \&)
+\begin{DoxyCompactList}\small\item\em this functionality reads a csv file. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{reader_c_s_v_8hpp_a404bbef145b5324fe3f5bf5e23e999d0}\label{reader_c_s_v_8hpp_a404bbef145b5324fe3f5bf5e23e999d0}} 
+\index{readerCSV.hpp@{readerCSV.hpp}!reader\_csv@{reader\_csv}}
+\index{reader\_csv@{reader\_csv}!readerCSV.hpp@{readerCSV.hpp}}
+\doxysubsubsection{\texorpdfstring{reader\_csv()}{reader\_csv()}}
+{\footnotesize\ttfamily vector$<$\mbox{\hyperlink{class_person}{Person}} $\ast$$>$ reader\+\_\+csv (\begin{DoxyParamCaption}\item[{const string \&}]{,  }\item[{const char \&}]{ }\end{DoxyParamCaption})}
+
+
+
+this functionality reads a csv file. 
+
+\begin{DoxyReturn}{Returns}
+vector$<$\+Person $\ast$$>$ 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=288pt]{reader_c_s_v_8hpp_a404bbef145b5324fe3f5bf5e23e999d0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{reader_c_s_v_8hpp_a404bbef145b5324fe3f5bf5e23e999d0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{reader_c_s_v_8hpp_a6cc8f1e9d194c46101323be506f574d6}\label{reader_c_s_v_8hpp_a6cc8f1e9d194c46101323be506f574d6}} 
+\index{readerCSV.hpp@{readerCSV.hpp}!split@{split}}
+\index{split@{split}!readerCSV.hpp@{readerCSV.hpp}}
+\doxysubsubsection{\texorpdfstring{split()}{split()}}
+{\footnotesize\ttfamily vector$<$string$>$ split (\begin{DoxyParamCaption}\item[{const string \&}]{,  }\item[{const char \&}]{ }\end{DoxyParamCaption})}
+
+
+
+this functionality split a string. 
+
+\begin{DoxyReturn}{Returns}
+vector$<$string$>$ 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{reader_c_s_v_8hpp_a6cc8f1e9d194c46101323be506f574d6_icgraph}
+\end{center}
+\end{figure}

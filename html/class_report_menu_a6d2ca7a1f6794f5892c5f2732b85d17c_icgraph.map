@@ -1,0 +1,4 @@
+<map id="ReportMenu::getSivep_DDA_path" name="ReportMenu::getSivep_DDA_path">
+<area shape="rect" id="node1" title="Get the Sivep DDA path object." alt="" coords="263,5,412,47"/>
+<area shape="rect" id="node2" href="$class_report_menu.html#ac43bd8722d377fa9d7db440ed05a8dab" title="this functionality look if the generateButton was pressed." alt="" coords="5,5,215,47"/>
+</map>

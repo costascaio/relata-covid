@@ -1,0 +1,7 @@
+<map id="generate_report" name="generate_report">
+<area shape="rect" id="node1" title="this functionality generates a duplicity report." alt="" coords="5,56,117,83"/>
+<area shape="rect" id="node2" href="$generate__duplicity__report_8cpp.html#adc222713ad96bb189d959ba7b4544ee4" title=" " alt="" coords="212,5,255,32"/>
+<area shape="rect" id="node4" href="$class_report.html#a7ca8d6e05bbef4089dc2f53cf30972ad" title="Set the Duplicity object." alt="" coords="165,56,301,83"/>
+<area shape="rect" id="node5" href="$class_report.html#a347faab04d5aece487b1627f81672423" title="Set the People object." alt="" coords="170,107,297,133"/>
+<area shape="rect" id="node3" href="$class_person.html#a1078e452cd9f207b3ae8f20e45288973" title=" " alt="" coords="349,5,464,32"/>
+</map>

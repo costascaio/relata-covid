@@ -1,0 +1,7 @@
+<map id="ReportTable::on_generateButton_pressed" name="ReportTable::on_generateButton_pressed">
+<area shape="rect" id="node1" title=" " alt="" coords="5,49,176,90"/>
+<area shape="rect" id="node2" href="$export__duplicity__report_8cpp.html#a97f145271e960df248bd01847bd5d2a4" title="this functionality export a duplicty report." alt="" coords="241,31,394,57"/>
+<area shape="rect" id="node5" href="$class_report_table.html#ab8e03ee314bfcb45fa1cf6396d08d57b" title="Get the Report data object." alt="" coords="224,81,411,108"/>
+<area shape="rect" id="node3" href="$class_report.html#aa93dacb20d3926cd74c8425f3eb5179e" title="Get the Duplicity object." alt="" coords="459,5,595,32"/>
+<area shape="rect" id="node4" href="$class_report.html#a88cb0c4d7c395dfa2988a92fd7dc52c1" title="Get the People object." alt="" coords="463,56,590,83"/>
+</map>

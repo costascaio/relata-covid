@@ -1,0 +1,16 @@
+<map id="ReportMenu::on_generateButton_pressed" name="ReportMenu::on_generateButton_pressed">
+<area shape="rect" id="node1" title="this functionality look if the generateButton was pressed." alt="" coords="5,191,215,233"/>
+<area shape="rect" id="node2" href="$generate__duplicity__report_8cpp.html#a28803994eaf24e721536a9fd02d1d4b1" title="this functionality generates a duplicity report." alt="" coords="309,56,421,83"/>
+<area shape="rect" id="node7" href="$class_report_menu.html#a862fbfedfaf01dcf0916544a85faf915" title="Get the E susVE path object." alt="" coords="263,107,468,133"/>
+<area shape="rect" id="node8" href="$class_report_menu.html#af5b07dcf4bec19802c8f1215196f4bb8" title=" " alt="" coords="287,158,443,199"/>
+<area shape="rect" id="node9" href="$class_report_menu.html#a6d2ca7a1f6794f5892c5f2732b85d17c" title="Get the Sivep DDA path object." alt="" coords="291,223,440,265"/>
+<area shape="rect" id="node10" href="$reader_c_s_v_8cpp.html#ae868225bc9fce9109b3a0226954d4b95" title="this functionality reads a csv file." alt="" coords="323,289,407,316"/>
+<area shape="rect" id="node14" href="$class_report_table.html#a06eecb8543e5db3ee47d68f20bc24c26" title="Set the Report data object." alt="" coords="272,340,459,367"/>
+<area shape="rect" id="node3" href="$generate__duplicity__report_8cpp.html#adc222713ad96bb189d959ba7b4544ee4" title=" " alt="" coords="567,5,610,32"/>
+<area shape="rect" id="node5" href="$class_report.html#a7ca8d6e05bbef4089dc2f53cf30972ad" title="Set the Duplicity object." alt="" coords="521,56,657,83"/>
+<area shape="rect" id="node6" href="$class_report.html#a347faab04d5aece487b1627f81672423" title="Set the People object." alt="" coords="525,107,652,133"/>
+<area shape="rect" id="node4" href="$class_person.html#a1078e452cd9f207b3ae8f20e45288973" title=" " alt="" coords="709,5,824,32"/>
+<area shape="rect" id="node11" href="$class_report.html#af14fc787d7284cd3ae33711b792aff53" title="Create a Person object." alt="" coords="516,239,661,265"/>
+<area shape="rect" id="node12" href="$class_report.html#a2b4f0d95f84c1b6daed0a623920cce1f" title="Create a Report object." alt="" coords="517,289,660,316"/>
+<area shape="rect" id="node13" href="$reader_c_s_v_8cpp.html#a085c8fb638561502537717fcfa782237" title="this functionality split a string." alt="" coords="565,340,612,367"/>
+</map>

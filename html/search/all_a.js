@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['reader_5fcsv_53',['reader_csv',['../reader_c_s_v_8cpp.html#ae868225bc9fce9109b3a0226954d4b95',1,'reader_csv(const string &amp;file_name, const char &amp;sep):&#160;readerCSV.cpp'],['../reader_c_s_v_8hpp.html#a404bbef145b5324fe3f5bf5e23e999d0',1,'reader_csv(const string &amp;, const char &amp;):&#160;readerCSV.cpp']]],
+  ['readercsv_2ecpp_54',['readerCSV.cpp',['../reader_c_s_v_8cpp.html',1,'']]],
+  ['readercsv_2ehpp_55',['readerCSV.hpp',['../reader_c_s_v_8hpp.html',1,'']]],
+  ['remove_5fduplicity_5freport_56',['remove_duplicity_report',['../remove__report_8cpp.html#a89b8f29a5039d5b504f2e8ad8f26c062',1,'remove_duplicity_report(Report *report):&#160;remove_report.cpp'],['../remove__report_8h.html#a0a64622a6a0e58b8b241791febba208a',1,'remove_duplicity_report(Report *):&#160;remove_report.cpp']]],
+  ['remove_5freport_2ecpp_57',['remove_report.cpp',['../remove__report_8cpp.html',1,'']]],
+  ['remove_5freport_2eh_58',['remove_report.h',['../remove__report_8h.html',1,'']]],
+  ['report_59',['Report',['../class_report.html',1,'']]],
+  ['report_2eh_60',['report.h',['../report_8h.html',1,'']]],
+  ['report_5fdata_61',['report_data',['../class_report_table.html#a21a9e0c8bd9f471544ea0b1e0c8637d0',1,'ReportTable']]],
+  ['report_5ftable_62',['report_table',['../class_report_menu.html#a1563ccc6fae505e06203a5b0ee931058',1,'ReportMenu']]],
+  ['reportimpl_63',['ReportImpl',['../class_report_impl.html',1,'ReportImpl'],['../class_report_impl.html#a3f13c0ebb9cae8fe7f7498fd4c84432d',1,'ReportImpl::ReportImpl()']]],
+  ['reportimpl_2ecpp_64',['reportImpl.cpp',['../report_impl_8cpp.html',1,'']]],
+  ['reportimpl_2eh_65',['reportImpl.h',['../report_impl_8h.html',1,'']]],
+  ['reportmenu_66',['ReportMenu',['../class_report_menu.html',1,'ReportMenu'],['../class_report_menu.html#ac4db641ee4c24ff5bffb8b4f5de3a2fa',1,'ReportMenu::ReportMenu()']]],
+  ['reportmenu_2ecpp_67',['reportmenu.cpp',['../reportmenu_8cpp.html',1,'']]],
+  ['reportmenu_2eh_68',['reportmenu.h',['../reportmenu_8h.html',1,'']]],
+  ['reportmenu_2eui_69',['reportmenu.ui',['../reportmenu_8ui.html',1,'']]],
+  ['reporttable_70',['ReportTable',['../class_report_table.html',1,'ReportTable'],['../class_report_table.html#ad12edd89ba26096136b508f6528b79a2',1,'ReportTable::ReportTable()']]],
+  ['reporttable_2ecpp_71',['reporttable.cpp',['../reporttable_8cpp.html',1,'']]],
+  ['reporttable_2eh_72',['reporttable.h',['../reporttable_8h.html',1,'']]],
+  ['reporttable_2eui_73',['reporttable.ui',['../reporttable_8ui.html',1,'']]],
+  ['result_5ftest_74',['result_test',['../class_person_impl.html#a043324a850989760fa1b4d1d3a61a2e4',1,'PersonImpl']]]
+];
