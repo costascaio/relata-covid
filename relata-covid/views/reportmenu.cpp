@@ -32,8 +32,8 @@ void ReportMenu::on_esusVEButton_pressed()
             path = "";
         }
         this->e_susVE_path = path;
-    } catch (exception e) {
-        throw e;
+    } catch (exception &e) {
+
     }
 }
 
@@ -71,8 +71,8 @@ void ReportMenu::on_sivepDDAButton_pressed()
             path = "";
         }
         this->sivep_DDA_path = path;
-    } catch (exception e) {
-        throw e;
+    } catch (exception &e) {
+
     }
 }
 
