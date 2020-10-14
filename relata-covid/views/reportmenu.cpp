@@ -85,6 +85,7 @@ void ReportMenu::on_generateButton_pressed()
         Report *report_data = generate_report(sivep, e_sus_ve);
 
         this->getReport_table()->setReport_data(report_data);
+        this->getReport_table()->setReportTable();
 
         this->getReport_table()->exec();
     }
