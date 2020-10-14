@@ -1,0 +1,44 @@
+#ifndef PAPERIMPL_H
+#define PAPERIMPL_H
+
+#include "src/entity/Paper.h"
+
+/**
+ * @brief This Class represents the implementation of Paper Entity.
+ * 
+ */
+class PaperImpl : public Paper
+{
+public:
+    /**
+     * @brief Construct a new Paper Impl object
+     * 
+     */
+    PaperImpl();
+    /**
+     * @brief Destroy the Paper Impl object
+     * 
+     */
+    ~PaperImpl();
+
+    /**
+     * @brief Get the is admin object
+     * 
+     * @return true 
+     * @return false 
+     */
+    bool get_is_admin();
+
+    /**
+     * @brief Set the is admin object
+     * 
+     * @param bool
+     */
+    void set_is_admin(bool);
+
+protected:
+    bool is_admin;
+
+};
+
+#endif // PAPERIMPL_H

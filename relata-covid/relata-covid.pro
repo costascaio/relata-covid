@@ -10,6 +10,7 @@ CONFIG += c++11
 
 SOURCES += \
     main.cpp \
+    src/entity/paperimpl.cpp \
     src/entity/personImpl.cpp \
     src/entity/reportImpl.cpp \
     src/services/export_duplicity_report.cpp \
@@ -21,6 +22,8 @@ SOURCES += \
 
 
 HEADERS += \
+    src/entity/paper.h \
+    src/entity/paperimpl.h \
     src/entity/person.h \
     src/entity/personImpl.h \
     src/entity/report.h \
