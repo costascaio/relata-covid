@@ -4,8 +4,12 @@
 #include <QDialog>
 #include <QMessageBox>
 #include <string>
+#include <QTableWidget>
+#include <QTableWidgetItem>
 #include "src/entity/report.h"
 #include "src/services/export_duplicity_report.h"
+
+using namespace std;
 
 namespace Ui {
 class ReportTable;
@@ -44,6 +48,11 @@ public:
      * @param value 
      */
     void setReport_data(Report *value);
+    /**
+     * @brief Set the Report Table
+     *
+     */
+    void setReportTable();
 
 private slots:
     /**

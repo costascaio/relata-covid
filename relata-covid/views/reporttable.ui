@@ -184,7 +184,7 @@ border-radius: 50px;</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true"/>
+     <string notr="true">background: transparent;</string>
     </property>
     <property name="text">
      <string/>
@@ -200,16 +200,6 @@ border-radius: 50px;</string>
      </size>
     </property>
    </widget>
-   <widget class="QTableWidget" name="tableReport">
-    <property name="geometry">
-     <rect>
-      <x>5</x>
-      <y>70</y>
-      <width>691</width>
-      <height>331</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QLabel" name="duplicityicon">
     <property name="geometry">
      <rect>
@@ -218,6 +208,9 @@ border-radius: 50px;</string>
       <width>31</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
     </property>
     <property name="text">
      <string/>
@@ -256,7 +249,17 @@ border-radius: 50px;</string>
 </string>
     </property>
     <property name="text">
-     <string>10</string>
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableReport">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>70</y>
+      <width>701</width>
+      <height>331</height>
+     </rect>
     </property>
    </widget>
    <zorder>line</zorder>
@@ -266,9 +269,9 @@ border-radius: 50px;</string>
    <zorder>reportLogo</zorder>
    <zorder>userIcon</zorder>
    <zorder>generateButton</zorder>
-   <zorder>tableReport</zorder>
    <zorder>nDuplicityLabel</zorder>
    <zorder>amountDuplicity</zorder>
+   <zorder>tableReport</zorder>
   </widget>
  </widget>
  <resources>
