@@ -6,9 +6,7 @@ ReportTable::ReportTable(QWidget *parent) :
     ui(new Ui::ReportTable)
 {
     ui->setupUi(this);
-
-    string duplic = to_string(this->getReport_data()->getDuplicity());
-    ui->amountDuplicity->setText(QString::fromStdString(duplic));
+    ui->amountDuplicity->setText("");
 }
 
 ReportTable::~ReportTable()
