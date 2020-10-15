@@ -15,8 +15,8 @@ public:
      * 
      */
     PaperImpl();
-
-    /**
+    
+     /**
      * @brief Create a paper object
      * 
      * @return Paper* 

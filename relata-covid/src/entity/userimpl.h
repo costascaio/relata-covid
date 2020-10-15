@@ -15,11 +15,29 @@ public:
      * 
      */
     UserImpl();
+
+    /**
+     * @brief Construct a new User Impl object
+     * 
+     * @param email 
+     * @param user 
+     * @param password 
+     * @param paper 
+     */
+    UserImpl(string email, string user, string password, Paper* paper);
+
     /**
      * @brief Destroy the User Impl object
      * 
      */
     ~UserImpl();
+
+    /**
+     * @brief Create a user object
+     * 
+     * @return User* 
+     */
+    static User* create_user(string, string, string, Paper*);
 
     /**
      * @brief Get the user object

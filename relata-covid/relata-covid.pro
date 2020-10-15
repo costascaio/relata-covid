@@ -15,16 +15,20 @@ SOURCES += \
     src/entity/reportImpl.cpp \
     src/entity/userimpl.cpp \
     src/services/create_paper.cpp \
+    src/services/create_user.cpp \
     src/services/define_paper.cpp \
     src/services/edit_paper.cpp \
+    src/services/edit_user.cpp \
     src/services/export_duplicity_report.cpp \
     src/services/generate_duplicity_report.cpp \
     src/services/readerCSV.cpp \
     src/services/remove_paper.cpp \
     src/services/remove_report.cpp \
-    views/login.cpp \
+    src/services/remove_user.cpp \
+    src/services/search_user.cpp \
     views/report-menu.cpp \
     views/report-view-table.cpp
+    views/login.cpp \
 
 
 HEADERS += \
@@ -37,16 +41,20 @@ HEADERS += \
     src/entity/user.h \
     src/entity/userimpl.h \
     src/services/create_paper.h \
+    src/services/create_user.h \
     src/services/define_paper.h \
     src/services/edit_paper.h \
+    src/services/edit_user.h \
     src/services/export_duplicity_report.h \
     src/services/generate_duplicity_report.h \
     src/services/readerCSV.h \
     src/services/remove_paper.h \
     src/services/remove_report.h \
-    views/login.h \
+    src/services/remove_user.h \
+    src/services/search_user.h \
     views/report-menu.h \
     views/report-view-table.h
+    views/login.h \
 
 FORMS += \
     views/login.ui \
