@@ -15,6 +15,15 @@ public:
      * 
      */
     PaperImpl();
+
+    static Paper* create_paper(bool);
+
+    /**
+     * @brief Construct a new Paper Impl object
+     *
+     * @param bool : is_admin
+     */
+    PaperImpl(bool);
     /**
      * @brief Destroy the Paper Impl object
      * 

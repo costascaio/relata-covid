@@ -8,6 +8,9 @@
 class Paper
 {
 public:
+
+    static Paper* create_paper(bool);
+
     /**
      * @brief Get the is admin object
      *
