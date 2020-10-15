@@ -15,6 +15,7 @@ SOURCES += \
     src/entity/reportImpl.cpp \
     src/entity/userimpl.cpp \
     src/services/create_paper.cpp \
+    src/services/edit_paper.cpp \
     src/services/export_duplicity_report.cpp \
     src/services/generate_duplicity_report.cpp \
     src/services/readerCSV.cpp \
@@ -34,6 +35,7 @@ HEADERS += \
     src/entity/user.h \
     src/entity/userimpl.h \
     src/services/create_paper.h \
+    src/services/edit_paper.h \
     src/services/export_duplicity_report.h \
     src/services/generate_duplicity_report.h \
     src/services/readerCSV.h \
