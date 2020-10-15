@@ -1,3 +1,3 @@
 TEMPLATE = subdirs
 
-SUBDIRS = app test
+SUBDIRS += unit
