@@ -2,13 +2,15 @@
 #include "views/login.h"
 #include "views/report-menu.h"
 #include "views/report-view-table.h"
-#include "src/entity/User.h"
+#include "src/entity/user.h"
 #include "src/entity/userimpl.h"
 #include <vector>
 #include <iostream>
 
 int main(int argc, char *argv[])
 {
+    cout << "Hello World!" << endl;
+
     QApplication a(argc, argv);    
 
     Login* login = new Login();
@@ -21,6 +23,4 @@ int main(int argc, char *argv[])
     login->exec();
 
     return a.exec();
-
-
 }

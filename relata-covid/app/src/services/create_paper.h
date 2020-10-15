@@ -2,7 +2,7 @@
 #define CREATE_PAPER_H
 
 
-#include "src/entity/Paper.h"
+#include "src/entity/paper.h"
 
 /**
  * @brief Create a paper object

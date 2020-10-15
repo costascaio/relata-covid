@@ -1,7 +1,7 @@
 #ifndef PAPERIMPL_H
 #define PAPERIMPL_H
 
-#include "src/entity/Paper.h"
+#include "src/entity/paper.h"
 
 /**
  * @brief This Class represents the implementation of Paper Entity.

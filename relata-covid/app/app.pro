@@ -1,4 +1,4 @@
-QT       += core gui
+QT += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -27,8 +27,8 @@ SOURCES += \
     src/services/remove_user.cpp \
     src/services/search_user.cpp \
     views/report-menu.cpp \
-    views/report-view-table.cpp
-    views/login.cpp \
+    views/report-view-table.cpp \
+    views/login.cpp
 
 
 HEADERS += \
@@ -47,14 +47,14 @@ HEADERS += \
     src/services/edit_user.h \
     src/services/export_duplicity_report.h \
     src/services/generate_duplicity_report.h \
-    src/services/readerCSV.h \
+    src/services/readerCSV.hpp \
     src/services/remove_paper.h \
     src/services/remove_report.h \
     src/services/remove_user.h \
     src/services/search_user.h \
     views/report-menu.h \
-    views/report-view-table.h
-    views/login.h \
+    views/report-view-table.h \
+    views/login.h
 
 FORMS += \
     views/login.ui \
