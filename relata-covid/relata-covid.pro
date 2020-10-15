@@ -28,6 +28,7 @@ SOURCES += \
     src/services/search_user.cpp \
     views/report-menu.cpp \
     views/report-view-table.cpp
+    views/login.cpp \
 
 
 HEADERS += \
@@ -53,8 +54,10 @@ HEADERS += \
     src/services/search_user.h \
     views/report-menu.h \
     views/report-view-table.h
+    views/login.h \
 
 FORMS += \
+    views/login.ui \
     views/report-menu.ui \
     views/report-view-table.ui
 
