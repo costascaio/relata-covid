@@ -27,7 +27,7 @@ void UserImpl::set_user(string user){
 }
 
 string UserImpl::get_password(){
-    return this->email;
+    return this->password;
 }
 void UserImpl::set_password(string password){
     this->password = password;
