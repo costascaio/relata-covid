@@ -1,7 +1,7 @@
 #ifndef REMOVE_PAPER_H
 #define REMOVE_PAPER_H
 
-#include "src/entity/Paper.h"
+#include "src/entity/paper.h"
 
 /**
  * @brief functionality that deletes a paper

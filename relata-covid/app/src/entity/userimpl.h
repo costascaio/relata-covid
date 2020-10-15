@@ -1,7 +1,7 @@
 #ifndef USERIMPL_H
 #define USERIMPL_H
 
-#include "User.h"
+#include "user.h"
 
 /**
  * @brief This class represents the implementation of the User entity.

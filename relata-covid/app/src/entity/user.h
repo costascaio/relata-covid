@@ -2,7 +2,7 @@
 #define USER_H
 
 #include <string>
-#include "Paper.h"
+#include "paper.h"
 
 using namespace std;
 
