@@ -16,7 +16,6 @@ Report* generate_report(vector<Person*>& people_SIVEP, vector<Person*>& people_E
     vector<Person*> people_without_duplicity;
     int duplicity = 0;
 
-    cout << "sivep size: " << people_SIVEP.size() << endl;
     for (int i = 0; i < people_SIVEP.size(); i++) {
         position = find(people_ESUS, people_SIVEP[i]);
         people_without_duplicity.push_back(people_SIVEP[i]);

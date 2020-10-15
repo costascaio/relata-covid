@@ -1,4 +1,4 @@
-#include "reportmenu.h"
+#include "report-menu.h"
 #include "ui_reportmenu.h"
 
 ReportMenu::ReportMenu(QWidget *parent) :
@@ -100,12 +100,12 @@ void ReportMenu::on_generateButton_pressed()
     }
 }
 
-ReportTable *ReportMenu::getReport_table() const
+ReportViewTable *ReportMenu::getReport_table() const
 {
     return report_table;
 }
 
-void ReportMenu::setReport_table(ReportTable *value)
+void ReportMenu::setReport_table(ReportViewTable *value)
 {
     report_table = value;
 }
