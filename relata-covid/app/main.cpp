@@ -9,6 +9,8 @@
 
 int main(int argc, char *argv[])
 {
+    cout << "Hello World!" << endl;
+
     QApplication a(argc, argv);    
 
     Login* login = new Login();
@@ -21,6 +23,4 @@ int main(int argc, char *argv[])
     login->exec();
 
     return a.exec();
-
-
 }

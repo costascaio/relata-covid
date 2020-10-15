@@ -1,4 +1,3 @@
 TEMPLATE = subdirs
 
-SUBDIRS += entity \
-    services \
+SUBDIRS += entity services
