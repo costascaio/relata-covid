@@ -13,6 +13,12 @@ using namespace std;
 class User
 {
 public:
+    /**
+     * @brief Create a paper object
+     * 
+     * @return Paper* 
+     */
+    static User* create_user(string, string, string, Paper*);
 
     /**
      * @brief Get the user object
