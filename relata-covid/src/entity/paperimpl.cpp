@@ -2,6 +2,17 @@
 
 PaperImpl::PaperImpl(){}
 
+PaperImpl::PaperImpl(bool is_admin){
+    this->is_admin = is_admin;
+}
+
+Paper* PaperImpl::create_paper(bool is_admin){
+    return new PaperImpl(is_admin);
+}
+
+Paper* Paper::create_paper(bool is_admin){
+    return PaperImpl::create_paper(is_admin);
+}
 
 PaperImpl::~PaperImpl(){}
 
