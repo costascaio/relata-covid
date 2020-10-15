@@ -8,8 +8,6 @@ void export_duplicity_report(Report *report)
 
     int number_duplicity = report->getDuplicity();
 
-    cout << "number duplicity: " << number_duplicity << endl;
-
     vector<string> columns = {
         "Name",
         "CPF",
