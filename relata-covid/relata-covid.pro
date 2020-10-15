@@ -18,6 +18,7 @@ SOURCES += \
     src/services/create_user.cpp \
     src/services/define_paper.cpp \
     src/services/edit_paper.cpp \
+    src/services/edit_user.cpp \
     src/services/export_duplicity_report.cpp \
     src/services/generate_duplicity_report.cpp \
     src/services/readerCSV.cpp \
@@ -42,6 +43,7 @@ HEADERS += \
     src/services/create_user.h \
     src/services/define_paper.h \
     src/services/edit_paper.h \
+    src/services/edit_user.h \
     src/services/export_duplicity_report.h \
     src/services/generate_duplicity_report.h \
     src/services/readerCSV.h \
