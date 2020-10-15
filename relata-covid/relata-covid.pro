@@ -26,8 +26,9 @@ SOURCES += \
     src/services/remove_report.cpp \
     src/services/remove_user.cpp \
     src/services/search_user.cpp \
+    views/admin-view.cpp \
     views/report-menu.cpp \
-    views/report-view-table.cpp
+    views/report-view-table.cpp \
     views/login.cpp \
 
 
@@ -52,11 +53,13 @@ HEADERS += \
     src/services/remove_report.h \
     src/services/remove_user.h \
     src/services/search_user.h \
+    views/admin-view.h \
     views/report-menu.h \
-    views/report-view-table.h
+    views/report-view-table.h \
     views/login.h \
 
 FORMS += \
+    views/admin-view.ui \
     views/login.ui \
     views/report-menu.ui \
     views/report-view-table.ui

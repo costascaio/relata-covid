@@ -9,6 +9,9 @@
         <file>assets/img/duplicity-icon.png</file>
         <file>assets/img/export-icon.png</file>
         <file>assets/img/login-icon.png</file>
+        <file>assets/img/admin-icon.PNG</file>
+        <file>assets/img/exit-icon.PNG</file>
+        <file>assets/img/register-icon.PNG</file>
     </qresource>
     <qresource prefix="/1"/>
 </RCC>
