@@ -22,6 +22,7 @@ SOURCES += \
     src/services/readerCSV.cpp \
     src/services/remove_paper.cpp \
     src/services/remove_report.cpp \
+    views/login.cpp \
     views/report-menu.cpp \
     views/report-view-table.cpp
 
@@ -43,10 +44,12 @@ HEADERS += \
     src/services/readerCSV.h \
     src/services/remove_paper.h \
     src/services/remove_report.h \
+    views/login.h \
     views/report-menu.h \
     views/report-view-table.h
 
 FORMS += \
+    views/login.ui \
     views/report-menu.ui \
     views/report-view-table.ui
 

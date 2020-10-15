@@ -8,6 +8,7 @@
         <file>assets/img/user-icon.PNG</file>
         <file>assets/img/duplicity-icon.png</file>
         <file>assets/img/export-icon.png</file>
+        <file>assets/img/login-icon.png</file>
     </qresource>
     <qresource prefix="/1"/>
 </RCC>
