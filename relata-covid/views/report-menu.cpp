@@ -1,5 +1,5 @@
 #include "report-menu.h"
-#include "ui_reportmenu.h"
+#include "ui_report-menu.h"
 
 ReportMenu::ReportMenu(QWidget *parent) :
     QDialog(parent),
