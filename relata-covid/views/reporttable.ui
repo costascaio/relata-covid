@@ -252,7 +252,7 @@ border-radius: 50px;</string>
      <string>0</string>
     </property>
    </widget>
-   <widget class="QTableWidget" name="tableReport">
+   <widget class="QFrame" name="frame_2">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -261,6 +261,34 @@ border-radius: 50px;</string>
       <height>331</height>
      </rect>
     </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QTableWidget" name="tableReport">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>701</width>
+       <height>331</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>701</width>
+       <height>331</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>701</width>
+       <height>331</height>
+      </size>
+     </property>
+    </widget>
    </widget>
    <zorder>line</zorder>
    <zorder>duplicityicon</zorder>
@@ -271,7 +299,7 @@ border-radius: 50px;</string>
    <zorder>generateButton</zorder>
    <zorder>nDuplicityLabel</zorder>
    <zorder>amountDuplicity</zorder>
-   <zorder>tableReport</zorder>
+   <zorder>frame_2</zorder>
   </widget>
  </widget>
  <resources>

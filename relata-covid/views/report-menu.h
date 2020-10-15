@@ -6,7 +6,7 @@
 #include <QMessageBox>
 #include <QDir>
 #include <QtGui>
-#include "reporttable.h"
+#include "report-view-table.h"
 #include "src/entity/report.h"
 #include "src/services/readerCSV.hpp"
 #include "src/services/generate_duplicity_report.h"
@@ -64,8 +64,8 @@ public:
      */
     void setSivep_DDA_path(const string &value);
 
-    ReportTable *getReport_table() const;
-    void setReport_table(ReportTable *value);
+    ReportViewTable *getReport_table() const;
+    void setReport_table(ReportViewTable *value);
 
 
 private slots:
@@ -97,7 +97,7 @@ private:
     Ui::ReportMenu *ui;
     string e_susVE_path;
     string sivep_DDA_path;
-    ReportTable* report_table;
+    ReportViewTable* report_table;
 };
 
 #endif // REPORTMENU_H

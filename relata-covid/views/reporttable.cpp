@@ -7,6 +7,15 @@ ReportTable::ReportTable(QWidget *parent) :
 {
     ui->setupUi(this);
     ui->amountDuplicity->setText("");
+
+    ui->tableReport->setRowCount(10);
+    ui->tableReport->setColumnCount(10);
+
+    QTableWidgetItem *newItem = new QTableWidgetItem(tr("teste").arg(
+        (1)*(1)));
+    ui->tableReport->setItem(1, 1, newItem);
+
+    ui->tableReport->setCellWidget(1, 1, new QPushButton("aq"));
 }
 
 ReportTable::~ReportTable()
