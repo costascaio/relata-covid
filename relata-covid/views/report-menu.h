@@ -11,8 +11,6 @@
 #include "src/services/readerCSV.hpp"
 #include "src/services/generate_duplicity_report.h"
 
-using namespace std;
-
 namespace Ui {
 class ReportMenu;
 }

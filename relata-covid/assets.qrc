@@ -12,6 +12,7 @@
         <file>assets/img/admin-icon.PNG</file>
         <file>assets/img/exit-icon.PNG</file>
         <file>assets/img/register-icon.PNG</file>
+        <file>assets/img/register-icon-logo.PNG</file>
     </qresource>
     <qresource prefix="/1"/>
 </RCC>

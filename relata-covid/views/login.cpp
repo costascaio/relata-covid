@@ -55,6 +55,8 @@ void Login::on_loginButton_pressed()
     }
 
     if(this->isAdmin(cpf, users)){
+        this->getAdmin_view()->getRegister_view()->setUsers(users);
+
         this->getAdmin_view()->setUsers(users);
         this->getAdmin_view()->exec();
     }

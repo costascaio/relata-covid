@@ -3,6 +3,7 @@
 
 #include <QDialog>
 #include "src/entity/User.h"
+#include "views/register-view.h"
 
 namespace Ui {
 class AdminView;
@@ -19,6 +20,9 @@ public:
     vector<User *> getUsers() const;
     void setUsers(const vector<User *> &value);
 
+    RegisterView *getRegister_view() const;
+    void setRegister_view(RegisterView *value);
+
 private slots:
     void on_registerButton_pressed();
 
@@ -27,6 +31,7 @@ private slots:
 private:
     Ui::AdminView *ui;
     vector<User*> users;
+    RegisterView* register_view;
 };
 
 #endif // ADMINVIEW_H
