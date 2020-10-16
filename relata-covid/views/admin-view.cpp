@@ -28,12 +28,22 @@ AdminView::~AdminView()
 
 void AdminView::on_registerButton_pressed()
 {
-    //call the Register window
+    this->register_view->exec();
 }
 
 void AdminView::on_exitButton_pressed()
 {
     this->reject();
+}
+
+RegisterView *AdminView::getRegister_view() const
+{
+    return register_view;
+}
+
+void AdminView::setRegister_view(RegisterView *value)
+{
+    register_view = value;
 }
 
 vector<User *> AdminView::getUsers() const

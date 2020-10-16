@@ -1,4 +1,4 @@
-TEMPLATE = subdirs
+QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -27,6 +27,7 @@ SOURCES += \
     src/services/remove_user.cpp \
     src/services/search_user.cpp \
     views/admin-view.cpp \
+    views/register-view.cpp \
     views/report-menu.cpp \
     views/report-view-table.cpp \
     views/login.cpp \
@@ -54,6 +55,7 @@ HEADERS += \
     src/services/remove_user.h \
     src/services/search_user.h \
     views/admin-view.h \
+    views/register-view.h \
     views/report-menu.h \
     views/report-view-table.h \
     views/login.h \
@@ -61,6 +63,7 @@ HEADERS += \
 FORMS += \
     views/admin-view.ui \
     views/login.ui \
+    views/register-view.ui \
     views/report-menu.ui \
     views/report-view-table.ui
 
@@ -71,4 +74,3 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     assets.qrc
-SUBDIRS += app test
